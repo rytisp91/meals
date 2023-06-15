@@ -145,7 +145,7 @@ body {
 /* HEADER */
 
 .coolBg {
-    background: url("../assets/food.jpg");
+    background: url("./assets/food.jpg");
     background-size: cover;
     background-attachment: fixed;
     padding: 100px;
