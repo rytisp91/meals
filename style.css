@@ -28,6 +28,7 @@
     flex-wrap: wrap;
 }
 
+
 /* BODY EDIT */
 
 body {
@@ -35,12 +36,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* NAVBAR */
 
 .nav_bar {
     height: 80px;
     padding: 0 30px 0 30px;
-    background: linear-gradient(90deg, rgb(236, 160, 160) 0%, rgb(156, 63, 0) 50%, rgba(77, 0, 0, 0.904) 100%);
+    background: linear-gradient(90deg, rgb(236, 188, 160) 0%, rgb(156, 63, 0) 50%, rgba(77, 0, 0, 0.904) 100%);
     color: white;
 }
 
@@ -71,6 +73,7 @@ body {
     cursor: pointer;
 }
 
+
 /* ASIDE */
 
 .aside {
@@ -99,7 +102,7 @@ body {
 }
 
 .about_me_aside {
-    padding: 100px 30px;
+    padding: 10px 30px;
 }
 
 .about_me_aside a:link {
@@ -121,7 +124,6 @@ body {
         right: -300px;
         opacity: 0
     }
-
     to {
         right: 0;
         opacity: 1
@@ -142,6 +144,7 @@ body {
     cursor: pointer;
 }
 
+
 /* HEADER */
 
 .coolBg {
@@ -156,6 +159,7 @@ body {
 .main_text {
     font-size: 100px;
 }
+
 
 /* MAIN */
 
@@ -176,7 +180,8 @@ body {
     margin: 20px;
     padding: 5px;
     word-wrap: break-word;
-    background: linear-gradient(90deg, rgb(139, 139, 139) 0%, rgba(255, 255, 255, 1) 50%, rgb(139, 139, 139) 100%);
+    background: linear-gradient(90deg, rgb(236, 160, 160) 0%, rgb(156, 63, 0) 50%, rgba(77, 0, 0, 0.904) 100%);
+    color: white;
     border-radius: 5px;
 }
 
@@ -187,7 +192,7 @@ body {
 }
 
 .card a {
-    color: rgb(0, 0, 0);
+    color: rgb(249, 246, 246);
 }
 
 .banner {
@@ -195,6 +200,7 @@ body {
     width: 300px;
     margin: 50px;
 }
+
 
 /* FOOTER */
 
@@ -223,4 +229,16 @@ body {
 
 .copy {
     font-size: 15px;
+}
+
+.image-container {
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.photo {
+    height: 50vh;
+    width: 60vh;
+    z-index: -1;
 }

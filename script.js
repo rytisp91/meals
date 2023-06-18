@@ -20,8 +20,7 @@ let asideTools = {
 }
 
 const mealsObj = {
-    meat: [
-        {
+    meat: [{
             image: "../assets/31.jpg",
             id: 0,
             title: "Nugarinės kepsniai su šonine",
@@ -46,8 +45,7 @@ const mealsObj = {
             link: "./meat/34.html"
         }
     ],
-    soups: [
-        {
+    soups: [{
             image: "../assets/11.jpg",
             id: 0,
             title: "Burokėlių sriuba",
@@ -72,8 +70,7 @@ const mealsObj = {
             link: "./soups/14.html"
         }
     ],
-    salads: [
-        {
+    salads: [{
             image: "../assets/21.jpg",
             id: 0,
             title: "Mangų ir avokadų kaprio salotos su burrata ir prosciutto",
@@ -140,4 +137,3 @@ const generatePosts = (meal) => {
 if (typeof currentHTML !== 'undefined') {
     generatePosts(currentHTML);
 }
-
