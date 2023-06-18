@@ -36,6 +36,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* NAVBAR */
 
 .nav_bar {
@@ -68,9 +69,10 @@ body {
 }
 
 .right_button:hover {
-    background-color: #000000;
+    background-color: #aa9168;
     cursor: pointer;
 }
+
 
 /* ASIDE */
 
@@ -113,12 +115,15 @@ body {
     text-decoration: none;
 }
 
+.about_me_aside img {
+    border-radius: 50%;
+}
+
 @keyframes animateright {
     from {
         right: -300px;
         opacity: 0
     }
-
     to {
         right: 0;
         opacity: 1
@@ -139,6 +144,7 @@ body {
     cursor: pointer;
 }
 
+
 /* HEADER */
 
 .coolBg {
@@ -153,6 +159,7 @@ body {
 .main_text {
     font-size: 100px;
 }
+
 
 /* MAIN */
 
@@ -188,11 +195,24 @@ body {
     color: rgb(249, 246, 246);
 }
 
+.image-container {
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.photo {
+    height: 50vh;
+    width: 60vh;
+    z-index: -1;
+}
+
 .banner {
     height: 300px;
     width: 300px;
     margin: 50px;
 }
+
 
 /* FOOTER */
 
