@@ -36,7 +36,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /* NAVBAR */
 
 .nav_bar {
@@ -69,10 +68,9 @@ body {
 }
 
 .right_button:hover {
-    background-color: #aa9168;
+    background-color: #000000;
     cursor: pointer;
 }
-
 
 /* ASIDE */
 
@@ -115,15 +113,12 @@ body {
     text-decoration: none;
 }
 
-.about_me_aside img {
-    border-radius: 50%;
-}
-
 @keyframes animateright {
     from {
         right: -300px;
         opacity: 0
     }
+
     to {
         right: 0;
         opacity: 1
@@ -144,7 +139,6 @@ body {
     cursor: pointer;
 }
 
-
 /* HEADER */
 
 .coolBg {
@@ -160,7 +154,6 @@ body {
     font-size: 100px;
 }
 
-
 /* MAIN */
 
 .main {
@@ -171,7 +164,7 @@ body {
 .main_about {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 50%, rgba(255, 255, 255, 1) 100%);
     height: 70vh;
-    /* padding: 100px; */
+    padding: 100px;
     text-align: center;
 }
 
@@ -201,7 +194,6 @@ body {
     margin: 50px;
 }
 
-
 /* FOOTER */
 
 .footer_main {
@@ -229,16 +221,4 @@ body {
 
 .copy {
     font-size: 15px;
-}
-
-.image-container {
-    float: left;
-    margin-right: 20px;
-    overflow: hidden;
-}
-
-.photo {
-    height: 50vh;
-    width: 60vh;
-    z-index: -1;
 }
